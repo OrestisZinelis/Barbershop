@@ -1,0 +1,33 @@
+.cart-item {
+    margin-bottom: 30px;
+
+    &__name-price-container {
+        justify-content: space-between;
+    }
+
+    &__service-name {
+        font-size: 14px;
+    }
+
+    &__barber-name {
+        font-weight: 700;
+    }
+
+    &__currency-price {
+        font-weight: 700;
+    }
+
+    &__number {
+        font-weight: 700;
+        background-color: black;
+        color: white;
+        height: 20px;
+        width: 20px;
+        border: 2px solid black;
+        border-radius: 50%;
+        font-size: 11px;
+        margin-right: 10px;
+        text-align: center;
+        display: inline-block;
+    }
+}

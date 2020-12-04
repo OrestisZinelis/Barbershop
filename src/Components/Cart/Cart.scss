@@ -1,0 +1,32 @@
+.cart {
+    height: 500px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 30px;
+    border: 1px solid rgb(220, 220, 220);
+    box-shadow: 0px 1px 3px rgba(220, 220, 220, 0.05) inset, 0px 0px 8px rgba(220, 220, 220, 0.6);
+
+    &__container {
+        position: relative;
+        height: 100%;
+        max-height: 420px;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    &__title {
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+    &__button {
+        width: 100%;
+        padding: 10px;
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        border: none;
+        border-radius: 5px;
+    }
+}

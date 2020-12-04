@@ -1,0 +1,49 @@
+.barber-card {
+  padding: 30px;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  text-align: center;
+  width: 200px;
+  height: 250px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+
+  &--isSelected {
+    background-color: black;
+    color: white;
+
+    &:hover{
+      background-color: black !important;
+      color: white !important;
+      cursor: initial !important;
+    }
+  }
+
+  &__photo {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+  }
+
+  &__name {
+    font-weight: 900;
+  }
+
+  &__available-today {
+    font-size: 12px;
+    color: gray;
+  }
+
+  &__about {
+    font-size: 14px;
+    color: cornflowerblue;
+  }
+
+  &__line {
+    width: 35px;
+    height: 0px;
+    border: 1px solid #c4c4c4;
+    margin: 3px;
+    display: inline-block;
+  }
+}

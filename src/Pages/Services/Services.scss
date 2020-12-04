@@ -1,0 +1,24 @@
+.services--container {
+    margin-top: 100px;
+}
+
+.service-cards--wrapper {
+    justify-content: start;
+    flex-wrap: wrap;
+    flex: 0 0 70%;
+    overflow-y: auto;
+    max-height: 500px;
+}
+
+.services--title {
+    font-size: 24px;
+    font-weight: 700;
+    position: absolute;
+    top: 80px;
+    bottom: 0px;
+    height: 40px;
+}
+
+.cart-container {
+    flex: 0 0 25%;
+}
